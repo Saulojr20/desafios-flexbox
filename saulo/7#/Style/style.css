@@ -1,0 +1,88 @@
+:root {
+    --primary: #5271fe;
+    --secudary: #7c93fb;
+    --third: #b7c4fe;
+    --dark-blue: #1c2656;
+    --dark: #000;
+    --dark-secudary: #333;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* styles to tag's */
+body{
+    background-color: var(--dark-secudary);
+
+}
+
+header {
+    background-color: var(--primary);
+    border-radius: 2em;
+    padding: 2em;
+}
+
+main {
+    background-color: var(--primary);
+    border-radius: 1em;
+    padding: 2em;
+    /* tamanho */
+    display: grid;
+    gap: 2em;
+}
+
+aside {
+    background-color: var(--secudary);
+    border-radius: 1em;
+    padding: 2em;
+    /* tamanho */
+    flex: 1;
+
+}
+
+article {
+    background-color: var(--secudary);
+    border-radius: 1em;
+    padding: 2em;
+    /* tamanho */
+    flex: 1;
+    /* add grid */
+    display: grid;
+    gap:2em;
+
+}
+
+article section{
+    background-color: var(--third);
+    border-radius: 1em;
+    padding: 2em;
+
+}
+
+section {
+    background-color: var(--secudary);
+    border-radius: 1em;
+    padding: 2em;
+}
+
+footer {
+    background-color: var(--primary);
+    border-radius: 1em;
+    padding: 2em;
+}
+
+/* styles to class */
+
+.init {
+    display: grid;
+    padding: 2em;
+    gap: 2em;
+
+}
+.main-body {
+    display: flex;
+    gap: 2em;
+}
