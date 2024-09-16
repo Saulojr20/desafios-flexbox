@@ -1,0 +1,59 @@
+:root {
+    --primary: #5271fe;
+    --secondary: #7c93fb;
+    --third: #b7c4fe;
+
+    --dark-bdarklue:#1c2656;
+    --dark: #000;
+    --dark-secondary: #333;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+/* estilo das tags */
+body {
+    background-color: var(--dark-secondary);
+}
+
+article section {
+    background-color: var(--third);
+}
+
+/* estilo das class */
+
+.init {
+padding: 2em;
+}
+
+.main-body {
+    display: flex;
+ }
+
+.card-primary {
+    border-radius: 1em;
+    padding: 2em;
+}
+
+.grid {
+    display: grid;
+}
+
+.color-primary{
+    background-color: var(--primary);
+}
+
+.color-secondary {
+    background-color: var(--secondary);
+}
+
+.gap {
+    gap: 2em;
+}
+
+.flex {
+    flex: 1;
+}
